@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 4001;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://ecommerce-test-front.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
